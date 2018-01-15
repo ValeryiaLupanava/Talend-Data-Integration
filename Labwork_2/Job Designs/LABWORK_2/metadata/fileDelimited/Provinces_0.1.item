@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_xhS8wPnJEeeTRe0RFe2d6Q" name="Provinces" dataPackage="_xhS8wfnJEeeTRe0RFe2d6Q" Server="Localhost 127.0.0.1" FilePath="D:/Valeryia_Lupanava_Lab/Talend Data Integration/Topic 02/input/provinces.csv" Encoding="windows-1252" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_xhS8wfnJEeeTRe0RFe2d6Q" name="default" dataManager="_xhS8wPnJEeeTRe0RFe2d6Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_xhS8wvnJEeeTRe0RFe2d6Q" id="_ApKwQPnJEeeTRe0RFe2d6Q" label="Provinces_metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xhS8w_nJEeeTRe0RFe2d6Q" label="Province_key" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xhS8xPnJEeeTRe0RFe2d6Q" label="Province_name" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xhS8xfnJEeeTRe0RFe2d6Q" label="Country_name" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xhS8xvnJEeeTRe0RFe2d6Q" label="Middle_region" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xhS8x_nJEeeTRe0RFe2d6Q" label="Region" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xhS8yPnJEeeTRe0RFe2d6Q" label="Market_region_churn" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xhS8yfnJEeeTRe0RFe2d6Q" label="Country_key" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xhS8yvnJEeeTRe0RFe2d6Q" label="Province_code" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xhS8y_nJEeeTRe0RFe2d6Q" label="Iso2" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xhS8zPnJEeeTRe0RFe2d6Q" label="Iso3" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xhS8zfnJEeeTRe0RFe2d6Q" label="Phone_code" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xhS8zvnJEeeTRe0RFe2d6Q" label="Iru" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xhS8z_nJEeeTRe0RFe2d6Q" label="Fx_code" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xhS80PnJEeeTRe0RFe2d6Q" label="Country_province_code" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xhS80fnJEeeTRe0RFe2d6Q" label="Country_province_name" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
