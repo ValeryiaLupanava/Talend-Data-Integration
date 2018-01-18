@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_AWzwkPwcEee467CHrRmQXA" confirmationNeeded="false" name="DEV">
+  <contextParameter xmi:id="_AWzwkfwcEee467CHrRmQXA" comment="" name="filePath" prompt="filePath?" promptNeeded="false" type="id_String" value="D:\Valeryia_Lupanava_Lab\Talend Data Integration\Topic 05 Tests Exit\payments\"/>
+</talendfile:ContextType>
